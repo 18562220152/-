@@ -79,7 +79,6 @@ var Heart = function(x,y){
     this.vertices.push(vector);
   }
 }
-
 Heart.prototype.draw = function(){
   this.size -= this.speedSize;
   this.x += this.speedX;
@@ -145,6 +144,5 @@ window.onload=function starttime(){
         return true;
     }
 </script>
-
 </body>
 </html>
