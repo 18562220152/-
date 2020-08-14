@@ -79,6 +79,7 @@ var Heart = function(x,y){
     this.vertices.push(vector);
   }
 }
+
 Heart.prototype.draw = function(){
   this.size -= this.speedSize;
   this.x += this.speedX;
@@ -124,7 +125,7 @@ window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
 window.onload=function starttime(){
-        time(h1,'2019/10/20');                           // 在一起的时间
+        time(h1,'2017/3/15');                           // 在一起的时间
         ptimer = setTimeout(starttime,1000);            // 添加计时器
 }
 
@@ -144,5 +145,6 @@ window.onload=function starttime(){
         return true;
     }
 </script>
+
 </body>
 </html>
